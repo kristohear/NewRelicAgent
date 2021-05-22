@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-  name: "NewRelicAgent",
+  name: "NewRelic",
   platforms: [.iOS(.v9)],
   products: [
-    .library(name: "NewRelicAgent",
-             targets: ["NewRelicAgent"])
+    .library(name: "NewRelic",
+             targets: ["NewRelic"])
   ],
   dependencies: [
   ],
